@@ -11,5 +11,3 @@ RUN pip install -r requirements.txt
 FROM nvim:base
 
 COPY --from=python-image /opt/venv /opt/venv
-
-ENV PATH="/opt/venv/bin:$PATH"
