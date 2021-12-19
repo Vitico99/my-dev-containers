@@ -1,4 +1,4 @@
-FROM docker.uclv.cu/alpine:latest
+FROM docker.uclv.cu/python:3.9-alpine
 
 RUN apk add -U --no-cache \
   nodejs npm bash curl neovim git
